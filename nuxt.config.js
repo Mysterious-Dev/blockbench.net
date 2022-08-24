@@ -32,14 +32,14 @@ export default {
 	plugins: [
 	],
 
-  
+
 	router: {
 	},
 
 	generate: {
 		fallback: true
 	},
-  
+
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
 	components: true,
@@ -54,7 +54,7 @@ export default {
 	],
 
 	content: {
-		
+
 		markdown: {
 			prism: {
 				theme: 'prism-themes/themes/prism-material-oceanic.css'
@@ -85,7 +85,23 @@ export default {
 
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: [
+        '@nuxtjs/i18n',
 	],
+
+    i18n: {
+        defaultLocale: 'en',
+        locales: [
+            {
+                code: 'en',
+                iso: 'en',
+                file: 'en.json'
+            }
+        ],
+        langDir: 'locales/',
+        vueI18n: {
+            fallbackLocale: 'en'
+        }
+    },
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {

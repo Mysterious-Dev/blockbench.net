@@ -4,20 +4,20 @@
 			<content class="content">
 				<img id="main_logo" src="~assets/blockbench_logo_text_white.svg" alt="Blockbench" height="72px" />
 
-				<h3>A low-poly 3D model editor</h3>
+				<h3>{{ $t('main.slogan') }}</h3>
 
 				<div class="buttons">
-					<button><a href="/downloads">Download</a></button>
-					<button class="webapp"><a href="https://web.blockbench.net" target="_blank" rel="noopener">Open Web App</a></button>
+					<button><a href="/downloads">{{ $t('main.download') }}</a></button>
+					<button class="webapp"><a href="https://web.blockbench.net" target="_blank" rel="noopener">{{ $t('main.open_web_app') }}</a></button>
 				</div>
 
 				<img id="front_page_app" src="~assets/front_page_app.png" alt="Blockbench Interface" />
 			</content>
 		</section>
-		
+
 		<section class="showcase">
 			<content class="content">
-				<h2>Made in Blockbench!</h2>
+				<h2>{{ $t('main.made_in') }}</h2>
 				<div id="sketchfab_viewer" v-if="!sketchfab_cookies_accepted">
 					<h4>View awesome Blockbench models in 3D!</h4>
 					<p>The viewer is powered by Sketchfab and uses Sketchfab cookies. To learn more, check out the <a href="https://sketchfab.com/privacy" target="_blank" rel="noopener noreferrer">Sketchfab Privacy Policy</a>.</p>
@@ -32,7 +32,7 @@
 
 		<section class="users">
 			<content class="content">
-				<h2>Who's using Blockbench</h2>
+				<h2>{{ $t('main.who_is_using') }}</h2>
 				<div id="blockbench_user_list">
 					<a href="https://noxcrew.com" target="_blank" rel="noopener">
 						<img src="~assets/companies/noxcrew.png" alt="Noxcrew Logo">
@@ -63,11 +63,11 @@
 						<img src="~assets/companies/gamemodeone.svg" alt="Gamemode One Logo">
 						Gamemode One
 					</a>
-					<p>...and many more!</p>
+					<p>{{ $t('main.who_is_using.more') }}</p>
 				</div>
 			</content>
 		</section>
-		
+
 		<section class="features">
 			<content class="content split">
 				<div class="text_body">
@@ -152,7 +152,7 @@ export default {
 			document.body.style.setProperty('--scroll', window.pageYOffset / window.innerHeight);
 		}, false);
 	},
-	
+
 }
 </script>
 
