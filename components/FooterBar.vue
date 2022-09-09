@@ -8,6 +8,10 @@
 				<nuxt-link to='/about'>About</nuxt-link>
 				<nuxt-link to='/imprint'>Imprint</nuxt-link>
 				<nuxt-link to='/privacy-policy'>Privacy Policy</nuxt-link>
+                <select name="language-picker-select" id="language-picker-select">
+                    <option lang="en" value="english" selected>English</option>
+                    <option lang="fr" value="francais">Français</option>
+                </select>
 			</nav>
 		</div>
 	</footer>
@@ -50,7 +54,7 @@ export default {
 	}
 
 	@media only screen and (max-width: 600px) {
-		
+
 		#footer {
 			text-align: center;
 		}

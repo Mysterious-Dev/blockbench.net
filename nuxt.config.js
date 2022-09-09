@@ -95,11 +95,21 @@ export default {
                 code: 'en',
                 iso: 'en',
                 file: 'en.json'
+            },
+            {
+                code: 'fr',
+                iso: 'fr',
+                file: 'fr.json'
             }
         ],
         langDir: 'locales/',
         vueI18n: {
             fallbackLocale: 'en'
+        },
+        detectBrowserLanguage: {
+            useCookie: true,
+            cookieKey: 'i18n_redirected',
+            redirectOn: 'root',  // recommended
         }
     },
 
