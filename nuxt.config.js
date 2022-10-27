@@ -95,11 +95,6 @@ export default {
                 code: 'en',
                 iso: 'en-US',
                 file: 'en.json'
-            },
-            {
-                code: 'fr',
-                iso: 'fr-FR',
-                file: 'fr.json'
             }
         ],
         langDir: 'locales/',
