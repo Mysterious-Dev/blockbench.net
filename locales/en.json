@@ -4,5 +4,12 @@
     "main.open_web_app": "Open Web App",
     "main.made_in": "Made in Blockbench!",
     "main.who_is_using": "Who's using Blockbench",
-    "main.who_is_using.more": "...and many more!"
+    "main.who_is_using.more": "...and many more!",
+    "main.features.modeling": "Low-poly Modeling",
+    "main.features.modeling.description.one": "Blockbench puts all the tools at your disposal to make the creation process of low-poly models as easy as possible.",
+    "main.features.modeling.description.two": "Use cuboids to get that Minecraft aesthetic, or create complex low-poly shapes using the mesh modeling tools!",
+    "main.features.texturing": "Texturing Tools",
+    "main.features.texturing.description.one": "Create, edit and paint texture right inside the program. Create or import palettes, paint, or draw shapes.",
+    "main.features.texturing.description.two": "Blockbench can automatically create a UV map and template for your model so that you can start painting right away.",
+    "main.features.texturing.description.three": "You can paint directly on the model in 3D space, use the 2D texture editor, or connect your favorite external image editor or pixel art software."
 }

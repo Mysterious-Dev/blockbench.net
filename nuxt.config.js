@@ -93,12 +93,12 @@ export default {
         locales: [
             {
                 code: 'en',
-                iso: 'en',
+                iso: 'en-US',
                 file: 'en.json'
             },
             {
                 code: 'fr',
-                iso: 'fr',
+                iso: 'fr-FR',
                 file: 'fr.json'
             }
         ],

@@ -71,9 +71,9 @@
 		<section class="features">
 			<content class="content split">
 				<div class="text_body">
-					<h3>Low-poly Modeling</h3>
-					<p>Blockbench puts all the tools at your disposal to make the creation process of low-poly models as easy as possible.</p>
-					<p>Use cuboids to get that Minecraft aesthetic, or create complex low-poly shapes using the mesh modeling tools!</p>
+					<h3>{{ $t('main.features.modeling') }}</h3>
+					<p>{{ $t('main.features.modeling.description.one') }}</p>
+					<p>{{ $t('main.features.modeling.description.two') }}</p>
 				</div>
 				<div>
 					<img src="~assets/features/flower_pot.png" alt="Modeling Illustration" />
@@ -82,10 +82,10 @@
 
 			<content class="content split">
 				<div class="text_body">
-					<h3>Texturing Tools</h3>
-					<p>Create, edit and paint texture right inside the program. Create or import palettes, paint, or draw shapes.</p>
-					<p>Blockbench can automatically create a UV map and template for your model so that you can start painting right away.</p>
-					<p>You can paint directly on the model in 3D space, use the 2D texture editor, or connect your favorite external image editor or pixel art software.</p>
+					<h3>{{ $t('main.features.texturing') }}</h3>
+					<p>{{ $t('main.features.texturing.description.one') }}</p>
+					<p>{{ $t('main.features.texturing.description.two') }}</p>
+					<p>{{ $t('main.features.texturing.description.three') }}</p>
 				</div>
 				<div>
 					<img src="~assets/features/texturing.png" alt="Texturing Illustration" />

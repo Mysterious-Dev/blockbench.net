@@ -11,7 +11,7 @@
 			</div>
 
 			<nav id="menu" :class="{folded: !show_menu}" @click="show_menu = false">
-				<nuxt-link to='/downloads'>Download</nuxt-link>
+				<nuxt-link to='/downloads'>{{ $t('main.download') }}</nuxt-link>
 				<nuxt-link to='/quickstart'>Quickstart</nuxt-link>
 				<nuxt-link to='/plugins'>Plugins</nuxt-link>
 				<nuxt-link to='/wiki'>Wiki</nuxt-link>
@@ -63,7 +63,7 @@ export default {
 		width: 100%;
 		color: var(--dark-text);
 	}
-	
+
 	#navigation {
 		display: flex;
 		height: 100%;
